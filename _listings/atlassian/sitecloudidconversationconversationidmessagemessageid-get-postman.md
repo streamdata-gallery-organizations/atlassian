@@ -2255,16 +2255,4 @@
               "code": 200,
               "name": "Response_200",
               "id": "69003562-daed-4d61-b372-5ba0238a698a"
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "variable": [
-    {
-      "key": "default",
-      "value": "http://www.example.com/"
-    }
-  ]
-}
+     

@@ -1635,37 +1635,4 @@
                   "value": "{}",
                   "type": "string"
                 }
-              ]
-            },
-            "method": "POST",
-            "header": [
-              {
-                "key": "Accept",
-                "value": "*/*",
-                "disabled": false
-              }
-            ],
-            "body": {
-              "mode": "raw"
-            },
-            "description": "Copy page hierarchy allows the copying of an entire hierarchy of pages and their associated properties, permissions and attachments.\n The id path parameter refers to the content id of the page to copy, and the new parent of this copied page is defined using the destinationPageId in the request body.\n The titleOptions object defines the rules of renaming page titles during the copy;\n for example, search and replace can be used in conjunction to rewrite the copied page titles.\n\n Response example:\n <pre><code>\n {\n      \"id\" : \"1180606\",\n      \"links\" : {\n           \"status\" : \"/rest/api/longtask/1180606\"\n      }\n }\n </code></pre>\n Use the /longtask/<taskId> REST API to get the copy task status."
-          },
-          "response": [
-            {
-              "status": "OK",
-              "code": 200,
-              "name": "Response_200",
-              "id": "a9b21575-e591-4867-b982-850702e786ce"
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "variable": [
-    {
-      "key": "default",
-      "value": "http://www.example.com/"
-    }
-  ]
-}
+         
