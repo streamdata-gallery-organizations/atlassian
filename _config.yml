@@ -1,11 +1,11 @@
-title: Streamdata API Gallery - Atlassian
+title: Streamdata API Gallery - Template
 description: A gallery of APIs to demonstrate what is possible when it comes to making data, content, and algorithms more real time, and event-driven as part of the API economy.
-url: atlassian.streamdata.gallery
-tag: Atlassian
+url: template.streamdata.gallery
+tag: Template
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-entities
-github_repo: atlassian
+github_user: streamdata-gallery-topics
+github_repo: template
 github_branch: master
 collections:
   listings:
