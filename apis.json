@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Atlassian",
+	"description": "This is a repository of atlassian APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/atlassian.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://atlassian.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Atlassian",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/atlassian/master/_listings/atlassian/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Atlassian",
+	"include": [
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/atlassian/master/_listings/atlassian/apis.yaml"
+		}
+	]
+}

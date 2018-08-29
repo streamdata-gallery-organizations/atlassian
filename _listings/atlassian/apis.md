@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlass
 x-kinRank: "8"
 x-alexaRank: "1656"
 tags: Atlassian
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-29"
+modified: "2018-08-29"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/atlassian/master/_listings/atlassian/apis.md
 specificationVersion: "0.14"
 apis:
@@ -129,6 +129,24 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/atlassian/master/_listings/atlassian/content-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/atlassian/master/_listings/atlassian/content-get-openapi.md
+- name: The Confluence Cloud REST API - Create content
+  x-api-slug: content-post
+  description: "Creates a new piece of content or publishes an existing draft. \n\nTo
+    publish a draft, add the `id` and `status` properties to the body of the request.
+    \nSet the `id` to the ID of the draft and set the `status` to 'current'. When
+    the \nrequest is sent, a new piece of content will be created and the metadata
+    from the \ndraft will be transferred into it.\n\n**[Permissions](https://confluence.atlassian.com/x/_AozKw)
+    required**: 'Add' permission for the \nspace that the content will be created
+    in, and permission to view the draft if publishing a draft."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/atlassian/master/_listings/atlassian/content-post-openapi.md
 - name: The Confluence Cloud REST API - Publish legacy draft
   x-api-slug: contentblueprintinstancedraftid-post
   description: "Publishes a legacy draft of a page created from a blueprint. Legacy
